@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Fest Wuppertal</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #ff6f61;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            background: url('https://example.com/hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .section {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .section h2 {
+            margin-bottom: 20px;
+        }
+        .section p {
+            margin-bottom: 40px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Culture Fest Wuppertal</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#performers">Performers</a>
+        <a href="#food">Food & Drinks</a>
+        <a href="#tickets">Tickets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Culture Fest Wuppertal</h1>
+        <p>Celebrate Diversity, Embrace Culture</p>
+    </div>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About the Festival</h2>
+            <p>Culture Fest Wuppertal is a vibrant celebration of multiculturalism, bringing together people from all walks of life to enjoy music, food, art, and performances from around the world.</p>
+        </div>
+        <div id="schedule" class="section">
+            <h2>Schedule</h2>
+            <p>Stay tuned! The festival date and schedule will be announced soon.</p>
+        </div>
+        <div id="performers" class="section">
+            <h2>Performers</h2>
+            <p>Experience an amazing lineup of artists and performers showcasing talents from various cultures and traditions.</p>
+        </div>
+        <div id="food" class="section">
+            <h2>Food & Drinks</h2>
+            <p>Enjoy a wide variety of delicious cuisines and beverages from around the world at our food stalls and food trucks.</p>
+        </div>
+        <div id="tickets" class="section">
+            <h2>Tickets</h2>
+            <p>Tickets will be available soon. Stay tuned for more information!</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need more information, feel free to reach out to us at info@culturefestwuppertal.com.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Culture Fest Wuppertal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
